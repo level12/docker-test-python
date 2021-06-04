@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 LABEL author=devteam@level12.io
 
 RUN apt-get clean && apt-get update && apt-get install -y locales && locale-gen en_US.UTF-8
